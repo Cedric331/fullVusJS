@@ -18,6 +18,7 @@ const routes = [
    {path:'/about', component:About}
 ]
 const router = new VueRouter({
+   mode:'history',
    routes
 })
 
